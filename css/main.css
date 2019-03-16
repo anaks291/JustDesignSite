@@ -1,0 +1,149 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #868585;
+	background: #fdfcfb;
+	font-weight: normal;
+	
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+/*Slider*/
+html,
+body {
+    height: 100%;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+#myCarousel{
+	position: relative;
+	top: -100px;
+}
+
+/*end slider*/
+
+
+
+.menu{
+	
+	margin-bottom: 0;
+	background-color:rgba(255,255,255, 0.0);
+	padding: 15px 0;
+	border-style: none;
+	z-index: 10;
+	position: relative;
+	top: 100px;
+
+
+}
+.navbar-brand img{
+	position: relative;
+	top: -15px;
+	width: 300px;
+	margin-left: 20px;
+}
+.navbar-default .navbar-nav > li > a{
+	font-size: 22px;
+	text-transform: uppercase;
+	color: #7a0d0d;
+	text-align: center;
+	font-weight: 700;
+}
+.navbar-default .navbar-nav > li > a.brelok{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.navbar-default .navbar-nav > li.active_link > a{
+	border-bottom: 1px solid #d42819;
+	color: #362f30;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+	border-bottom: 1px solid #d42819;
+	color: #362f30;
+}
+.content_block{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.content_block>a>p{
+	 font-family: 'Open Sans', sans-serif;
+	 font-size: 16px;
+	 text-align: justify;
+	 color: #000;	
+}
+.content_block>a>img{
+	float: left;
+	height: 140px;
+	position: relative;	
+	left: -14px;
+	margin: 5px;
+}
+.content_block>a>h2{
+  	font-family: 'Open Sans', sans-serif;
+	 font-size: 25px;
+	 text-align: center;
+	 color: #000;
+	 text-transform: uppercase;
+	 margin-top: 10px;
+}
+.content_block{
+	border-width: 2px;
+	border-style: solid;
+	border-color: #000;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.content_section{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #868585;
+	position: relative;
+	top: -100px;
+}
+footer{
+	background-color: #7f789e;
+	position: relative;
+	top: -100px;
+}
+.footer_block>p{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	margin-top: 10px;
+}
+.social_block>a>i{
+	color: #fff;
+	font-size: 30px;
+	margin: 10px;
+}
+
+.content_block>a:hover,
+.content_block>a:focus{
+	text-decoration: none;
+}
+
